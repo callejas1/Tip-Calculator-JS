@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+
+<body>
+  <section>
+    <div class="header">
+      <h1>TIP CALCULATOR</h1>
+    </div>
+    <form>
+      <div>
+        <label for="amount">How much was your bill?</label>
+        <br>
+        <span class="euro-sign-top">€</span>
+        <!-- Input for bill amount  -->
+        <input type="number" id="bill-amount">
+      </div>
+      <div>
+        <label for="quality">How was your service?</label>
+        <br>
+        <!-- Drop down for tip % -->
+        <select id="select-service" name="tip" required>
+          <option disabled selected value="0">--Choose an option--</option>
+          <option value="0.3">30% - Outstanding</option>
+          <option value="0.2">20% - Good</option>
+          <option value="0.15">15% - It was OK</option>
+          <option value="0.1">10% Bad</option>
+          <option value="0.05">5% Terrible</option>
+        </select>
+      </div>
+      <div>
+        <label for="quality">How many people are sharing the bill?</label>
+        <br>
+        <!-- Amount of people sharing the bill -->
+        <input type="number" id="split-amount">
+        <span>people</span>
+      </div>
+    </form>
+    <div class="btn">
+      <button id="calc-btn">CALCULATE</button>
+    </div>
+    <!-- Final message after calculation-->
+    <div id="message-display" class="final-message">
+      <h2>That'll be</h2>
+      <span>€</span><span id="total-amount"></span>
+      <h3 id="each">each</h3>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

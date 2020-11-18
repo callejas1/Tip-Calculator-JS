@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* added @import google font family to entire document body*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  margin: 20px;
+  background: linear-gradient(90deg, #ffffff, #ccffff);
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #f2f2f2;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(to top left, #66ffff 30%, #ff99cc 90%);
+}
+
+.euro-sign-top {
+  background-color: #eee;
+  padding: 0.5em;
+}
+
+div {
+  padding: 1em;
+}
+
+/* Customize input and select default style */
+input,
+select {
+  font-family: 'Poppins', sans-serif;
+  width: 70%;
+  appearance: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px #66ffff groove;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+
+button {
+  padding: 1em;
+  background: linear-gradient(to bottom right, #66ffff 0%, #ff99cc 100%);
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+.btn,
+.final-message {
+  text-align: center;
+}
