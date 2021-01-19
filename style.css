@@ -15,7 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   padding: 15px;
   margin: 20px;
-  background: linear-gradient(90deg, #ffffff, #ccffff);
+  background: #eee;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
   text-align: center;
   color: #fff;
   border-radius: 10px 10px 0px 0px;
-  background: linear-gradient(to top left, #66ffff 30%, #ff99cc 90%);
+  background: #00a693;
 }
 
 .euro-sign-top {
@@ -55,7 +55,7 @@ select {
 
 button {
   padding: 1em;
-  background: linear-gradient(to bottom right, #66ffff 0%, #ff99cc 100%);
+  background: #00a693;
   color: white;
   border: none;
   width: 100%;
